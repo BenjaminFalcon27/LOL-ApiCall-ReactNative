@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "league-des-legendes",
-    "slug": "league-des-legendes",
+    "slug": "lol-champions-in-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/15a81a08-e440-4e39-8ac4-f19326cfc5ae"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -28,6 +29,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "15a81a08-e440-4e39-8ac4-f19326cfc5ae"
+      }
+    },
+    "owner": "benjaminfalcon27",
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
