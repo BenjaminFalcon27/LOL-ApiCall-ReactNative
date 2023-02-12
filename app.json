@@ -19,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.benjaminfalcon27.lolchampionsinreactnative"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.benjaminfalcon27.lolchampionsinreactnative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -37,7 +39,7 @@
     },
     "owner": "benjaminfalcon27",
     "runtimeVersion": {
-      "policy": "appVersion"
+      "policy": "sdkVersion"
     }
   }
 }
