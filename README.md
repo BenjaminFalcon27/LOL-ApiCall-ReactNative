@@ -35,6 +35,6 @@ The app is pretty simple. You can scroll through the list of champions and click
 
 The API used in this app is the [Riot Games API](https://developer.riotgames.com/). You will need to create an account and get an API key to use it.
 
-## Gif
+## Presentation
 
 ![Gif](./assets/presentation.gif)
