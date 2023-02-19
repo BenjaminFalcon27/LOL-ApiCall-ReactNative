@@ -11,6 +11,7 @@ interface Props {
     tags: string[];
     title: string;
     blurb: string;
+    info: string[];
   };
 }
 
@@ -69,7 +70,7 @@ export const CardChampion = ({ item }: Props) => {
   const navigation = useNavigation<any>();
 
   function navigateToChampionDetailScreen() {
-    navigation.navigate(Routes.CHAMPION_DETAIL_SCREEN, { name: item.name, desc: item.blurb });
+    navigation.navigate(Routes.CHAMPION_DETAIL_SCREEN, { name: item.name, desc: item.blurb, info: item.info });
   }
 
   const imageURL =
