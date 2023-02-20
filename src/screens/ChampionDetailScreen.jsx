@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, ScrollView, Image } from "react-native";
 
 export const ChampionDetailScreen = ({ route, navigation }) => {
-  const { name, desc, info } = route.params;
+  const { name, desc } = route.params;
 
   const url =
     "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/" +
@@ -18,7 +18,9 @@ export const ChampionDetailScreen = ({ route, navigation }) => {
           uri: url,
         }}
       />
-      <Text>{info}</Text>
+      <ScrollView>
+        <Text style={styles.desc}>{desc}</Text>
+      </ScrollView>
     </View>
   );
 };
