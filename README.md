@@ -37,4 +37,7 @@ The API used in this app is the [Riot Games API](https://developer.riotgames.com
 
 ## Presentation
 
-![Gif](./assets/presentation.gif)
+<p align="center">
+  <img src="./assets/presentation.gif" alt="Gif">
+</p>
+
